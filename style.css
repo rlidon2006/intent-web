@@ -63,11 +63,11 @@ header{
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1;color:black}
-
+@media (hover:hover){
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+}
 li img{
   float: left;
   padding: 8px 14px;
