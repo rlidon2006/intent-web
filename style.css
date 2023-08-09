@@ -1,7 +1,7 @@
 body{
     margin-left: 10%; /*Fer margin adaptatiu (mòbils, etc) algun dia*/
     font-family:Arial, Helvetica, sans-serif;
-    margin-top:50px;
+    margin-top:70px;
 }
 
 h1{
@@ -43,5 +43,10 @@ h1{
   .topnav img{
       float: left;
       padding: 8px 14px;
+  }
+  @media only screen and (max-width: 800px) {
+    .OMEheader {
+      display: none;
+    }
   }
   
