@@ -1,111 +1,112 @@
 
 body{
-  margin-left: 10%; /*Fer margin adaptatiu (mòbils, etc) algun dia*/
-  font-family:Arial, Helvetica, sans-serif;
-  margin-top:70px;
+    margin-left: 10%; /*Fer margin adaptatiu (mòbils, etc) algun dia*/
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:70px;
 }
 
 h1{
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }
 
 ul {
-list-style-type: none;
-margin: 0;
-padding: 0 0;
-overflow-x: scroll;
-overflow-y: hidden;
-background-color: #252236;
-white-space:nowrap;
-height:min-content;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  background-color: #252236;
+  white-space:nowrap;
+  height:min-content;
 }
 
 li {
-display:inline-block;
+  display:inline-block;
 }
 
 li a, .dropbtn {
-display: inline-block;
-color: white;
-text-align: center;
-padding: 16px 16px;
-text-decoration: none;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-background-color: rgb(0, 0, 0);
-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 li.dropdown {
-display: inline-block;
+  display: inline-block;
 }
 
 .dropdown-content {
-display: none;
-position: absolute;
-background-color: #f9f9f9;
-min-width: 1px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 1px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
+html { scroll-behavior: smooth; } 
 
 .dropdown-content a {
-color: black;
-padding: 14px 16px;
-text-decoration: none;
-display: block;
-text-align: left;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
 header{
-position:fixed;
- left: 0px;
- right: 0px;
- top:0px;
- box-shadow: 0 0 5px 0 black;
- height: max-content;
+	position:fixed;
+   left: 0px;
+   right: 0px;
+   top:0px;
+   box-shadow: 0 0 5px 0 black;
+   height: max-content;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1;color:black}
 @media (hover:hover){
 .dropdown:hover .dropdown-content {
-display: block;
+  display: block;
 }
 }
 li img{
-display: inline-block;
-padding: 0px 8px 0px 24px;
-vertical-align: middle;
+  display: inline-block;
+  padding: 0px 8px 0px 24px;
+  vertical-align: middle;
 }
 
 
 .OMEheader{
-color: white;
-text-align: center;
-padding: 10px 12px;
-font-size: 24px;
-font-family: "Trebuchet MS";
-display:inline-block;
-vertical-align: middle;
+ color: white;
+ text-align: center;
+ padding: 10px 12px;
+ font-size: 24px;
+ font-family: "Trebuchet MS";
+ display:inline-block;
+ vertical-align: middle;
 }
 /* algun dia, posar OMEheader al mig?? centrat horitzontalment */
 
-/* Hide scrollbar for Chrome, Safari and Opera */
+ /* Hide scrollbar for Chrome, Safari and Opera */
 ul::-webkit-scrollbar {
-display: none;
+  display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 ul {
--ms-overflow-style: none;  /* IE and Edge */
-scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 } 
 
 @media only screen and (max-width: 800px) {
-.OMEheader {
-  display: none;
-}
-.topnav a {
-    font-size:17px;
-}
+  .OMEheader {
+    display: none;
+  }
+  .topnav a {
+      font-size:17px;
+  }
 }
