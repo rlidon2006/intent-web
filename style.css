@@ -3,6 +3,8 @@ body{
     margin-left: 10%; /*Fer margin adaptatiu (mòbils, etc) algun dia*/
     font-family:Arial, Helvetica, sans-serif;
     margin-top:70px;
+    margin-right:10%;
+    margin-bottom: 20px;
 }
 
 h1{
@@ -109,4 +111,20 @@ ul {
   .topnav a {
       font-size:17px;
   }
+}
+
+.patros{
+  border-top: 5px double rgb(181, 188, 255);
+  width:100%;
+  font-size:50px;
+  padding: 10px 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+.patros img{
+  display: inline-block;
+  vertical-align: middle;
+  width:35%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
