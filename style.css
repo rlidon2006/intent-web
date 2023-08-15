@@ -120,6 +120,7 @@ ul {
   padding: 10px 10px;
   vertical-align: middle;
   text-align: center;
+
 }
 .patros img{
   display: inline-block;
@@ -127,4 +128,11 @@ ul {
   width:35%;
   margin-left: 3%;
   margin-right: 3%;
+}
+
+a{
+  color: #13008e;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
 }
