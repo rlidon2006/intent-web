@@ -1,17 +1,23 @@
 
 body{
-    margin-left: 10%; /*Fer margin adaptatiu (mòbils, etc) algun dia*/
+    margin-left: 8%; /*Fer margin adaptatiu (mòbils, etc) algun dia*/
     font-family:Arial, Helvetica, sans-serif;
     margin-top:100px;
-    margin-right:10%;
+    margin-right: 8%;
     margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+p{
+  font-size: 17px;
 }
 
 h1, h2, h3{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  margin-top: 2em;
 }
 
-ul {
+header ul {
   list-style-type: none;
   margin: 0;
   padding: 0 0;
@@ -22,15 +28,15 @@ ul {
   height:min-content;
 }
 
-li {
+header li {
   display:inline-block;
 }
 
-li a, .dropbtn {
+header li a, .dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 16px 16px;
+  padding: 14px 14px;
   text-decoration: none;
 }
 
@@ -81,6 +87,9 @@ li img{
   vertical-align: middle;
 }
 
+.active{
+  color: rgb(183, 218, 255);
+}
 
 .OMEheader{
  color: white;
@@ -101,15 +110,29 @@ ul::-webkit-scrollbar {
 /* Hide scrollbar for IE, Edge and Firefox */
 ul {
   -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  scrollbar-width: none;  /* Firefox */;
 } 
+
+li {
+  padding-top:0.5em;
+}
+
+@media only screen and (max-width: 1080px) and (min-width: 800px){
+  .OMEheader {
+    display: none;
+  }
+  header a {
+      font-size:16px;
+  }
+}
 
 @media only screen and (max-width: 800px) {
   .OMEheader {
     display: none;
   }
-  .topnav a {
-      font-size:17px;
+  li a {
+      font-size:14px;
+      padding: 11px 11px;
   }
 }
 
@@ -132,7 +155,17 @@ ul {
 
 a{
   color: #13008e;
-  font-weight: bold;
+  font-weight: 500;
   font-style: normal;
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+em{
+  font-style:normal;
+  font-weight: bold;
+  color:#2e294a;
+}
+
+.spc{
+  height: 33px;
 }
