@@ -20,13 +20,13 @@ body{
 
 @media only screen and (max-width: 500px) {
   h1{
-    font-size: 21px;
+    font-size: 23px;
   }
   h3{
-    font-size: 17px;
+    font-size: 19px;
   }
   p{
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
@@ -326,11 +326,13 @@ em{
   border: 1px solid #2e294a;
   padding: 5px 7px;
 } 
+
+
 @media only screen and (max-width:800px) {
   .medallas{
     width: 100%;
     padding: 0 0;
-  }
+  }/*
   .pdfenunciados{
     display: none;
     height: 0;
@@ -345,9 +347,9 @@ em{
   .oros, .platas, .bronces{
     width: 93%;
     border-width: 2px;
-  }
+  }*/
 }
-
+/*
 @media only screen and (max-width:500px){
   .medallas{
     font-size: 14.5px;
@@ -358,6 +360,7 @@ em{
     list-style-type: none;
   }
 }
+*/
 
 a.anchor {
   display: block;
