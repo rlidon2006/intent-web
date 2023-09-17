@@ -30,6 +30,10 @@ body{
   }
 }
 
+h1, h2, h3{
+  font-family: "Trebuchet MS";
+}
+
 header ul {
   list-style-type: none;
   margin: 0;
@@ -86,9 +90,9 @@ header{
    right: 0px;
    top:0px;
    margin-top: 0;
-   box-shadow: 0 0 5px 0 black;
+   box-shadow: 0 0 0 0 black;
    height: max-content;
-   padding: 0 0;
+   padding: 0 0 0 0;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1;color:black}
@@ -371,19 +375,21 @@ a.anchor {
   visibility: hidden;
 }
 
-.banner{
-  text-align: center;
-  background-image: url(img/fotobannertest.png);
-  padding-top: 60px;
-  padding-bottom: 60px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 30px;
-  font-weight: bolder;
-}
+
 
 .logoxarxes{
   padding-right: 0;
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 0;
+}
+
+.banner{
+  width: 100%;
+  margin: 0 0 0 0;
+
+}
+
+ul{
+  margin-top: 0;
 }
