@@ -426,8 +426,8 @@ a.anchor {
   }
 }
 
-body ul{
-  padding-left: min(30px,max(3%, 5px));
+.puntos{
+  padding-left: min(100px,max(3%, 20px));
 }
 
 .encamino{
