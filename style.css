@@ -50,8 +50,9 @@ header{
 }
 
 header ul {
+  margin: auto;
+  text-align: center;
   list-style-type: none;
-  margin: 0;
   padding: 0 0;
   overflow-x: scroll;
   overflow-y: hidden;
