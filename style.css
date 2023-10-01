@@ -285,9 +285,6 @@ em{
   text-decoration: none;
 }
 
-.row{
-}
-
 .oros{
   width: 90%;
   background-color: #fff0b4;
@@ -335,7 +332,7 @@ em{
 }
 
 .tablaproblemas{
-  width: min(100%, max(500px, 60%)); /*REFERENCIA MIN Y MAX!!!*/
+  width: min(100%, max(400px, 30%)); /*REFERENCIA MIN Y MAX!!!*/
   margin: auto;
   border: 3px solid #2e294a;
   border-collapse: collapse;
@@ -454,4 +451,36 @@ justify-content: center; /* align horizontal */
 
 body a{
   color:#12007a;
+}
+
+.tablest{
+  position:relative;
+  margin: auto;
+  border: 0px;
+}
+
+.tablest{
+  width: min(100%, max(500px, 40%)); /*REFERENCIA MIN Y MAX!!!*/
+  margin: auto;
+  border: 3px solid #2e294a;
+  border-collapse: collapse;
+}
+
+.tablest th, td{
+  border: 1px solid #2e294a;
+  padding: 5px 7px;
+} 
+
+.locales{
+  width: 40%;
+  margin: auto;
+  position:relative;
+  display: inline-block;
+  vertical-align: top;  
+}
+
+@media only screen and (max-width: 800px){
+  .locales{
+    width: 90%;
+  }
 }
