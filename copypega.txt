@@ -1,7 +1,0 @@
-<div style="height:max-content; width:100%; text-align: center;">
-<div style="width:100%; margin:auto;" class="pdfenunciados">
-  <object class = "pdf" data="../pdf/test pdf.pdf" type="application/pdf" 
-  width="85%" style="height:500px; width:max(min(100%, 750px), 85%);"></object>
-</div></div>
-
-^^ para embed de lector de pdf

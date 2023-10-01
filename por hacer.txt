@@ -1,0 +1,26 @@
+Adaptar la navbar para todas las páginas
+
+Completar el histórico, tanto enunciados como premiados
+
+Lista webs fases locales
+
+Lanzar el discord
+
+Contacto (falta ayuda de maría)
+
+Bases (falta ayuda)
+
+Poner alguna imágen?? (preguntarle a maría)
+  Banner grande en cada página o almenos en la inicial
+
+Comprovar que todos los subenlaces de la navbar vayan al sitio que toca
+
+Comprovar formato y fuente de letra homogéneos
+
+Enchufar el docu de geo cuando esté acabado
+
+Revisar ortografía
+
+Logo de la ome en el pié de página??
+
+Cosas burocráticas de licencias y tal?
