@@ -120,9 +120,15 @@ header{
   display: block;
 }
 }
-li img{
+.logoxarxes{
   display: inline-block;
   padding: 0px 8px 0px 24px;
+  vertical-align: middle;
+}
+
+.logoome{
+  display:inline-block;
+  padding: 0px 8px 0px 8px;
   vertical-align: middle;
 }
 
